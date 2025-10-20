@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const toast = document.getElementById("toast");
 
   // Set current tab URL by default
-  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+  browser.tabs.query({ active: true, currentWindow: true }).then((tabs) => {
     const currentTab = tabs[0];
     if (currentTab && currentTab.url) {
       urlInput.value = currentTab.url;
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Open the URL after a short delay to show loading state
       setTimeout(() => {
-        chrome.tabs.create({ url: finalURL });
+        browser.tabs.create({ url: finalURL });
         setButtonLoading(button, false);
         showToast("Opening Wayback Machine...");
       }, 500);
