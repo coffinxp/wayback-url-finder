@@ -63,8 +63,7 @@ https://web.archive.org/cdx/search/cdx?url=*.example.com/*&collapse=urlkey&outpu
 
 ## Screenshots
 
-<img width="366" height="521" alt="Screenshot 2025-10-19 091726" src="https://github.com/user-attachments/assets/646fe87c-8693-44a5-8c75-8012b77e0ae0" />
-
+<img width="1672" height="941" alt="Web Archival   Reconnaissance Flow" src="https://github.com/user-attachments/assets/bae3a6fc-c3ac-45da-9216-6318b73bf70a" />
 
 ## Contributing
 
