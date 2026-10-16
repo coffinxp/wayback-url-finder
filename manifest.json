@@ -1,10 +1,10 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Wayback URLs Finder",
   "version": "1.0",
   "description": "Fetch archived URLs from the Wayback Machine using different match types.",
-  "permissions": ["activeTab"],
-  "action": {
+  "permissions": ["activeTab", "tabs"],
+  "browser_action": {
     "default_popup": "popup.html"
   },
   "icons": {
